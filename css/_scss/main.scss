@@ -1,0 +1,104 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+
+// Your CSS/SCSS below this line
+html {
+ height: 100%;
+}
+
+body {
+  font-family: $body, $body-fb;
+  color: $body-color;
+  height: 100%;
+  padding-bottom:100px;
+}
+
+h1 {
+font-family: $headline, $headline-fb;
+font-size: $headline-font-size;
+font-weight: $headline-font-weight;
+color: $headline-color;
+}
+
+h2, h3 {
+font-family: $headline, $headline-fb;
+font-weight: $headline-font-weight;
+color: $headline-color;
+}
+
+h4, h5, h6 {
+  font-family: $body, $body-fb;
+  color: $font-color;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+}
+
+.titlefont {
+  font-family: $headline, $headline-fb;
+  font-weight: 900;
+  color: white;
+}
+
+.headerimg {
+  background-image: $tophead-image;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+}
+
+.jumboimg {
+  background-image: $jumbo-image;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrowcolor {
+  color: $arrow-color;
+}
+
+.week {
+  color: $arrow-color;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.fontcolor {
+  color: $body-color;
+}
+
+.ui-accordion-header{
+   background:black;
+   border: none;
+}
+
+.fooditemone {
+  background-image: $fooditemone-image;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.fooditemtwo {
+  background-image: $fooditemtwo-image;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.footercolor {
+  @include linear-gradient($footer-color-1, $footer-color-2);
+  border: 1px solid gray;
+}
