@@ -8,7 +8,12 @@ html {
  height: 100%;
 }
 
+.test {
+  margin-bottom: 50px;
+}
+
 body {
+  background-color: #2E2E2E;
   font-family: $body, $body-fb;
   color: $body-color;
   height: 100%;
@@ -34,6 +39,8 @@ h4, h5, h6 {
 }
 
 .footer {
+  z-index: 200;
+  margin: 0;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -101,4 +108,5 @@ h4, h5, h6 {
 .footercolor {
   @include linear-gradient($footer-color-1, $footer-color-2);
   border: 1px solid gray;
+  height: 60px;
 }

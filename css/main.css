@@ -1,1 +1,109 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:800");@import url("https://fonts.googleapis.com/css?family=Avenir");html{height:100%}body{font-family:Avenir,sans-serif;color:#fff;height:100%;padding-bottom:100px}h1{font-family:Montserrat,sans-serif;font-size:80px;font-weight:800;color:#fff}h2,h3{font-family:Montserrat,sans-serif;font-weight:800;color:#fff}h4,h5,h6{font-family:Avenir,sans-serif;color:#3D3E41}.footer{position:fixed;left:0;bottom:0;height:40px;width:100%}.titlefont{font-family:Montserrat,sans-serif;font-weight:900;color:white}.headerimg{background-image:url("../images/headerwood2.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;height:50px}.jumboimg{background-image:url("../images/food.jpg");height:200px;background-position:center;background-repeat:no-repeat;background-size:cover}.arrowcolor{color:#fff}.week{color:#fff;font-weight:600;font-size:40px}.fontcolor{color:#fff}.ui-accordion-header{background:black;border:none}.fooditemone{background-image:url("../images/sweetpotato.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;height:300px}.fooditemtwo{background-image:url("../images/beets.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;height:300px}.footercolor{background:#809C33;background:linear-gradient(#809C33, #AED041);border:1px solid gray}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800");
+@import url("https://fonts.googleapis.com/css?family=Avenir");
+html {
+  height: 100%;
+}
+
+.test {
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: #2E2E2E;
+  font-family: Avenir, sans-serif;
+  color: white;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  color: white;
+}
+
+h2, h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+h4, h5, h6 {
+  font-family: Avenir, sans-serif;
+  color: #3D3E41;
+}
+
+.footer {
+  z-index: 200;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+}
+
+.titlefont {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.headerimg {
+  background-image: url("../images/headerwood2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+}
+
+.jumboimg {
+  background-image: url("../images/food.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrowcolor {
+  color: white;
+}
+
+.week {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.fontcolor {
+  color: white;
+}
+
+.ui-accordion-header {
+  background: black;
+  border: none;
+}
+
+.fooditemone {
+  background-image: url("../images/sweetpotato.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.fooditemtwo {
+  background-image: url("../images/beets.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.footercolor {
+  background: #809C33;
+  background: linear-gradient(#809C33, #AED041);
+  border: 1px solid gray;
+  height: 60px;
+}
