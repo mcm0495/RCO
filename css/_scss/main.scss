@@ -20,6 +20,10 @@ body {
   padding-bottom:100px;
 }
 
+a {
+  text-decoration: none
+}
+
 h1 {
 font-family: $headline, $headline-fb;
 font-size: $headline-font-size;
@@ -70,6 +74,14 @@ h4, h5, h6 {
   background-size: cover;
 }
 
+.jumboimg2 {
+  background-image: $jumbo-image2;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .arrowcolor {
   color: $arrow-color;
 }
@@ -97,6 +109,14 @@ h4, h5, h6 {
   height: 300px;
 }
 
+.fooditemone2 {
+  background-image: $fooditemone-image2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
 .fooditemtwo {
   background-image: $fooditemtwo-image;
   background-position: center;
@@ -105,8 +125,51 @@ h4, h5, h6 {
   height: 300px;
 }
 
+a.test:link {
+  color: white;
+}
+
+a.test:active {
+  color: white;
+}
+
+a.test:hover {
+  color: gray;
+}
+
+a.test:visited {
+  color: #355400;
+}
+
 .footercolor {
   @include linear-gradient($footer-color-1, $footer-color-2);
   border: 1px solid gray;
   height: 60px;
+}
+
+// recipe
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        color: black;
+}
+
+.list-group {
+  color: black;
+}
+
+.arrow {
+    text-decoration: none;
+}
+// end of recipe
+
+// questions
+.questionbox {
+  color: black;
+  background-color: white;
+}
+
+.ask {
+  background-color: gray;
 }
