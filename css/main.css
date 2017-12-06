@@ -168,5 +168,31 @@ a.test:visited {
 }
 
 .ask {
+  background-color: rgba(128, 128, 128, 0.3);
+  border-top: solid #4E647C;
+}
+
+.commentbtn {
+  background-color: #4E647C;
+  border: none;
+  color: white;
+}
+
+.foodswapcolor {
+  color: white;
+}
+
+.badge-pill {
   background-color: gray;
+}
+
+.callbtn {
+  background-color: #4E647C;
+  border: solid white;
+  color: white;
+  padding: 20px;
+}
+
+.test2 {
+  margin-bottom: 100px;
 }
